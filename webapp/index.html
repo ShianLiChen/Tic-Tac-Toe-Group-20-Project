@@ -1,0 +1,97 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title>Chat Server</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+
+<!-- Add your site or application content here -->
+<body style="margin:0; background: #575555;">
+
+<header class="chat-header">
+    <h1>Chat Server</h1>
+    <div id="left" class="column">
+        <ul>
+            <li><a href="#">Home</a></li>
+        </ul>
+        <ul id = "about">
+            <li><a href="./about.html">About</a></li>
+        </ul>
+
+    </div>
+</header>
+
+<div class="rightside">
+</div>
+
+<div class="chat-messages"></div>
+
+<div class="leftside">
+    <div>
+        <div id = "boxleft">
+            <div id="room">
+                <input type="text" id="room-code" placeholder="Enter room code... ">
+                <br>
+                <br>
+                <button id="btroom" onclick="newRoom()">ENTER</button>
+            </div>
+            <br>
+            <br>
+            <h3 style="color: #b5b6b5">List of Chat Rooms:</h3>
+            <div id = "roomList"></div>
+        </div>
+    </div>
+</div>
+
+
+<div>
+<textarea title="Chat Log" id="log" readonly
+          style="display: block; width: 70vw; height: 59.35vh; resize: none; margin: -17.8vh; padding: 0; border-radius: 0.5vw; border-color: #2e59e8; margin-left: 23.5vw; border-width: 0.6vw"></textarea>
+    <input title="Chat Input" placeholder="Enter Text: " id="input" type="text" style="display: block; width: 70.1vw; margin-top: 20vh; margin-bottom: 0vw;border-width: 0.5vw; border-radius: 0.5vw; border-color: #2e59e8;
+              margin-left: 23.5vw";
+           autofocus/>
+
+</div>
+<div class="chat-form-container">
+
+
+</div>
+
+<script src="js/main.js"></script>
+<link rel="stylesheet" href="css/style.css" type="text/css"/>
+<link rel="stylesheet" href="css/normalize.css">
+</body>
+
+<script src="js/vendor/modernizr-3.11.2.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
