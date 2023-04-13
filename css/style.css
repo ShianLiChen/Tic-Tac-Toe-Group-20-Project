@@ -1,0 +1,91 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Didact Gothic', sans-serif;
+
+}
+button {
+    font-family: 'Didact Gothic', sans-serif;
+    /*other font UNUSED*/
+    /*font-family: 'News Cycle', sans-serif;*/
+}
+
+header {
+    display: flex;
+    width: 90%;
+    height: 10vh;
+    margin: 0;
+    align-items: center;
+}
+
+.logo-container,
+.nav-links{
+    display: flex;
+}
+
+.logo-container {
+    flex: 0;
+    position: fixed;
+    margin: 0px;
+}
+nav {
+    position: fixed;
+    width: 100%;
+    flex: 2;
+    height: 100px;
+    background-image: linear-gradient(to top, rgba(27,27,31,0), rgba(27, 27, 31));
+}
+.nav-links {
+    margin-top: 45px;
+    list-style: none;
+    justify-content: space-around;
+    text-align: right;
+}
+.nav-link {
+    color: #8d8c94;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.pageLayout {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    min-height: 80vh;
+    align-items: center;
+}
+.allText {
+    flex: 1;
+}
+.text h1 {
+    margin-left: 60%;
+    font-size: 44px;
+    font-weight: 500;
+    color: #8d8c94;
+}
+.text p {
+    margin-left: 60%;
+    margin-top: 5px;
+    font-size: 22px;
+    color: #8d8c94;
+}
+.buttonDes {
+    margin-left: 60%;
+    padding: 50px 0px 0px 0px;
+}
+.buttonDes1 {
+    border: 2px solid #8d8c94;
+    background: transparent;
+    color: #8d8c94;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+}
+.buttonDes1:hover {
+    background-color: #cad2dc;
+    transition: 0.7s;
+}
