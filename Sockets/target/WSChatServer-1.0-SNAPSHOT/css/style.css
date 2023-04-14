@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background: #e6e9ff;
+    margin: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.rightside {
+    /*max-width: 1100vw;*/
+    /*background: #fff;*/
+    margin: -13vw auto;
+    margin-top: 10vw;
+    /*position: fixed;*/
+    /*overflow: hidden;*/
+}
+
+.chat-header {
+    background: deepskyblue;
+    color: rgb(231, 229, 239);
+    /*border-top-left-radius: 5px;*/
+    /*border-top-right-radius: 5px;*/
+    padding: 0.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.leftside {
+    float: left;
+    width: 21vw;
+    /*padding: -50px;*/
+    /*height: 100px;*/
+}
+
+#boxleft {
+    background: #252121;
+    margin-top: -1.1vw;
+    height: 32.9vw;
+    padding: 2vh 1vw;
+    margin-right: 4vw;
+}
+
+.chat-messages {
+    padding: 2.06vw;
+    /*max-height: 500px;*/
+    /*overflow-y: scroll;*/
+}
+
+.chat-messages .message {
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: white;
+    border-radius: 5px;
+    overflow-wrap: break-word;
+}
+
+.chat-messages .message .meta {
+    font-size: 15px;
+    font-weight: bold;
+    color: #dbdde8;
+    opacity: 0.7;
+    margin-bottom: 7px;
+}
+
+.chat-messages .message .meta span {
+    color: #777;
+}
+
+.chat-form-container {
+    /*padding: 20px 30px;*/
+    height: 6.3vw;
+    margin-top: 1.46vw;
+    background: deepskyblue;
+}
+
+.chat-form-container form {
+    display: flex;
+}
+
+.chat-form-container input[type='text'] {
+    font-size: 16px;
+    padding: 5px;
+    height: 40px;
+    flex: 1;
+}
+
+/* Join Page */
+.join-container {
+    max-width: 500px;
+    margin: 80px auto;
+    color: #fff;
+}
+
+.join-header {
+    text-align: center;
+    padding: 20px;
+    background: #122ad5;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.join-main {
+    padding: 30px 40px;
+    background: #28378d;
+}
+
+.join-main p {
+    margin-bottom: 20px;
+}
+
+.join-main .form-control {
+    margin-bottom: 20px;
+}
+
+.join-main label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.join-main input[type='text'] {
+    font-size: 16px;
+    padding: 5px;
+    height: 40px;
+    width: 100%;
+}
+
+.join-main select {
+    font-size: 16px;
+    padding: 5px;
+    height: 40px;
+    width: 100%;
+}
+
+.join-main .btn {
+    margin-top: 20px;
+    width: 100%;
+}
+
+#room{
+    margin: 0;
+    /*position: fixed;*/
+    top: 25%;
+    left: 5%;
+    color: white;
+}
+
+#log{
+    background-color: #989595
+}
+
+#input{
+    background-color: #989595
+}
+
+::placeholder{
+    color: #000000;
+    opacity: 1;
+}
